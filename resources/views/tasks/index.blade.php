@@ -11,7 +11,7 @@
             <thead>
                 <tr>
                     <th>id</th>
-                    <th>タイトル</th>
+                    <th>ステータス</th>
                     <th>メッセージ</th>
                 </tr>
             </thead>
@@ -28,4 +28,5 @@
     @endif
     
       {!! link_to_route('tasks.create', '新規タスクの投稿', null, ['class' => 'btn btn-primary']) !!}
+      
 @endsection
