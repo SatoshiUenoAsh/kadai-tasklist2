@@ -16,7 +16,7 @@
             <td>{{ $task->status }}</td>
         </tr>
         <tr>
-            <th>メッセージ</th>
+            <th>タスク</th>
             <td>{{ $task->content }}</td>
         </tr>
     </table>
